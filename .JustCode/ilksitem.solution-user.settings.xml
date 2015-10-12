@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="4fb8faa5-a81d-490a-bd58-8b2abfa7f78f">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>ilksitem/Content/css/style.css</FileRelativePath>
+        <ProjectRelativePath>ilksitem/ilksitem.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>9139361170787650982</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

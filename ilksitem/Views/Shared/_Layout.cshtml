@@ -1,0 +1,57 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="/" />
+    <meta name="keywords" content="/" />
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <section id="container">
+        <header>
+
+            <div id="logo"></div>
+            <div id="socialmedia">
+                <a href="//facebook.com/" target="_blank">
+                    <div class="social">
+
+                        <img src="~/Content/img/face.png" alt="facebook" />
+                    </div>
+                </a>
+                <a href="//googleplus.com/" target="_blank">
+                    <div class="social">
+                        <img src="~/Content/img/google.png" alt="googleplus" />
+                    </div>
+                </a>
+                <a href="//twitter.com" target="_blank">
+                    <div class="social">
+                        <img src="~/Content/img/twit.png" alt="twitter" />
+                    </div>
+                </a>
+            </div>
+
+        </header>
+        <nav>
+            <a href="/"><div class="nav-item"><span>Anasayfa</span></div></a>    
+            <a href="/Bize_Dair"> <div class="nav-item"><span>Hakkımızda</span></div></a>    
+            <a href="/Referanslar"> <div class="nav-item"><span>Referanslar</span></div></a>    
+            <a href="/Cozumler">  <div class="nav-item"><span>Çözümler</span></div></a>    
+            <a href="/İletisim"> <div class="nav-item" style="width:192px ; border-right:0;"><span>İletişim</span></div></a>    
+
+
+
+
+        </nav>
+        <section id="content">@RenderBody()</section>
+        <footer>
+            <small>2015 &copy; Süleyman Kabadayı | Tüm Hakları Saklıdır</small>
+        </footer>
+    </section>
+  
+</body>
+</html>
